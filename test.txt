@@ -1,0 +1,25 @@
+2da23507d33946f59be22ca7cda9c566
+git init
+git clone (link)                                                                   -> for cloning the repo to the local machine
+git add --all                                                                      -> add the file to stage  
+git commit -m ""                                                                      -> showing the message 
+git push                                                                           -> push the you changes to the repo
+git pull                                                                           -> for download the new content form repo/server to local machine 
+git checkout branchname                                                            -> for moving master to any other branch
+git branch                                                                         -> for showing which branch you are in
+git branch poclocal                                                                ->creating a new branch [files does not copy just only a new pointer will be created]
+git push --set-upstream origin poclocal                                            -> push the branch to the repo/server
+for merging the code to any branch to master branch use pull request(azure devops) ->https://www.youtube.com/watch?v=Tf4Q4n_46fk&list=PLaFzfwmPR7_Ifxq-udm66fhReFeGOe2x_&index=36
+
+Pipelines
+so pipelines means ci and cd process we call it together pipeline
+ci-> build the code and test the code
+cd-> deploy the code to the prodiction and whatever else
+agent -> when you build or release the system create some jobs and agent is installable softeware that runs the job microsoft hosted agent and self hosted  
+approvals -> giving the permissions for deployment
+artifact -> after a build pipeline ci part one coollection of files or packaages being created this is artifact which will go to deployment
+environment ->
+job ->
+run ->
+stage ->
+trigger ->
